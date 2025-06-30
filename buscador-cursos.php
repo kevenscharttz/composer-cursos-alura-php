@@ -1,3 +1,5 @@
+#!/usr/bin/env php
+
 <?php 
 
     require 'vendor/autoload.php';
@@ -16,6 +18,6 @@
 
 
     foreach ($cursos as $curso) {
-        echo exibeMensagem($curso);
+        exibeMensagem($curso);
     }
 ?>
